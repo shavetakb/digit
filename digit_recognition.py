@@ -66,6 +66,10 @@ st.markdown("""
     <p style='text-align: center; font-size: 18px; color: #ffffff; text-shadow: 1px 1px 2px #000000;'>
         Train a model with ZIP file (0–9 folders) and predict digits from images
     </p>
+    
+    <p style='text-align: center; font-size: 16px; color: #ccffcc; text-shadow: 1px 1px 1px #000000;'>
+        📦 You can also use a pre-trained model or upload your own data to train one.
+    </p>
 """, unsafe_allow_html=True)
 
 # 🧰 Helper functions
