@@ -139,7 +139,7 @@ if zip_file:
 else:
     if os.path.exists(model_path):
         model = joblib.load(model_path)
-        st.success("📦 Loaded pre-trained model from saved file.")
+        st.success("📦 Loaded pre-trained model from saved file. Now Upload image for prediction")
     else:
         st.warning("⚠️ No model found. Please upload training ZIP to train one.")
 
