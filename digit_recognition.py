@@ -38,6 +38,14 @@ def add_bg_from_url(image_url):
             width: fit-content;
             box-shadow: 0 0 8px rgba(0,0,0,0.2);
         }}
+        div[data-testid="stAlert"] {{
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #00ffcc !important;
+        border: 1px solid #00ffcc;
+        border-radius: 12px;
+        font-weight: bold;
+        padding: 1rem;
+        }}
         </style>
         """,
         unsafe_allow_html=True
