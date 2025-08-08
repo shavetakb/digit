@@ -116,7 +116,7 @@ test_img = st.sidebar.file_uploader("Digit image to predict", type=["png", "jpg"
 # 🔄 Train if ZIP uploaded or Load pretrained model
 
 model = None
-model_path = "model/digit_model.pkl"
+model_path = "digit_model.pkl"
 
 if zip_file:
     with st.spinner("Extracting ZIP and training model..."):
